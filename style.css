@@ -27,19 +27,19 @@ body,html{
 
 .fadeOut {
     animation-name: fadeOut;
-    animation-duration: 5s;
+    animation-duration: 2s;
     animation-fill-mode: both
 }
 
 @keyframes fadeOut {
-    to { opacity: 0;}
+    to { opacity: 0.3;}
 }
 
 
 
 .fadeIn {
     animation-name: fadeIn;
-    animation-duration: 5s;
+    animation-duration: 2s;
     animation-fill-mode: both
 }
 
@@ -55,8 +55,8 @@ body,html{
     z-index: 99999999;
     position: absolute;
     bottom: 0;
-    left: 20px;
-    animation: shake 2s infinite ease-out;
+    left: 35px;
+    animation: shake 3s infinite ease-out;
 }
 
 @keyframes shake {
